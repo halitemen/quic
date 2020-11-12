@@ -14,6 +14,7 @@ namespace QuicProtocolBasicTest
             listener.Start();
             while (true)
             {
+
                 // Blocks while waiting for a connection
                 QuicConnection client = listener.AcceptQuicClient();
 
